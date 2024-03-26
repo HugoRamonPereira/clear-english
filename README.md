@@ -72,7 +72,7 @@ yarn preview
 bun run preview
 ```
 
-Check out the author&quot;s available profiles if you wish to contact him, have any ideas or to get down to business:
+Check out the author&apos;s available profiles if you wish to contact him, have any ideas or to get down to business:
 
 * [Portfolio - Hugo Ramon](https://hugoramonpereira.dev/)
 * [LinkedIn - Hugo Ramon](https://www.linkedin.com/in/hugo-ramon-pereira/)
