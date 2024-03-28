@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class='bg-stone-500 w-full max-w-[1200px] flex items-center justify-center mx-auto'>
+    <header class='w-full max-w-[1200px] flex items-center justify-center mx-auto'>
       <TheHeader />
     </header>
   </div>
@@ -13,5 +13,3 @@ useHead({
   title: 'Home'
 })
 </script>
-
-<style scoped></style>
