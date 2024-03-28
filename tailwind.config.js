@@ -81,6 +81,9 @@ module.exports = {
         "collapsible-up": "collapsible-up 0.2s ease-in-out",
       },
     },
+    fontFamily: {
+      assistant: ['Assistant']
+    }
   },
   plugins: [animate],
 }

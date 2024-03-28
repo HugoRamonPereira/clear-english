@@ -1,6 +1,10 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt'],
+  modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt', '@nuxtjs/google-fonts'],
+  googleFonts: {
+    families: {
+      Assistant: [200, 400, 600]
+    }
+  },
   shadcn: {
     /**
      * Prefix for all the imported component

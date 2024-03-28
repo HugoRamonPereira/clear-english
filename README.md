@@ -1,10 +1,11 @@
 # Clear English Project
 
-This project is an idea by [Hugo Ramon](https://hugoramonpereira.dev/) please visit my portfolio to learn more.
+This project is an idea by [Hugo Ramon](https://www.linkedin.com/in/hugo-ramon-pereira/) please visit my [portfolio](https://hugoramonpereira.dev/) to learn more.
 
 ## Technologies
 
-This project was created using [Vue.js](https://vuejs.org/) and [Nuxt.js](https://nuxt.com/)
+This project was created using [Vue.js](https://vuejs.org/) and [Nuxt.js](https://nuxt.com/).
+For the styling of the application we are using [TailwindCSS](https://tailwindcss.com/) and [Shadcn-vue](https://www.shadcn-vue.com/)
 
 ```bash
 # npm
