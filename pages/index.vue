@@ -1,16 +1,13 @@
 <template>
-  <div class='border-b border-b-stone-300'>
-    <header class='w-full max-w-[1200px] flex items-center justify-center mx-auto'>
-      <TheHeader />
-    </header>
-  </div>
-  <div>
-    <TheHero />
-  </div>
+  <TheHeader />
+  <TheHero />
+  <TheHero />
+  <TheFooter />
 </template>
 
 <script lang="ts" setup>
 import TheHeader from '~/components/TheHeader.vue';
+import TheFooter from '~/components/TheFooter.vue';
 import TheHero from '~/components/TheHero.vue';
 
 useHead({
