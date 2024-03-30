@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class='border-b border-b-stone-300'>
     <header class='w-full max-w-[1200px] flex items-center justify-center mx-auto'>
       <TheHeader />
     </header>
