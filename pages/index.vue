@@ -4,10 +4,14 @@
       <TheHeader />
     </header>
   </div>
+  <div>
+    <TheHero />
+  </div>
 </template>
 
 <script lang="ts" setup>
 import TheHeader from '~/components/TheHeader.vue';
+import TheHero from '~/components/TheHero.vue';
 
 useHead({
   title: 'Home'
