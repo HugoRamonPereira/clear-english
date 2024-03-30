@@ -54,12 +54,16 @@
     </NavigationMenu>
     <div class='font-light flex gap-4'>
       <Button class='flex gap-1 bg-violet-500 text-white py-1 px-4 rounded-lg hover:bg-violet-600'>
-        Sign in
+        <NuxtLink to='signin'>
+          Sign in
+        </NuxtLink>
         <LogIn :size="18" :stroke-width="1.5" />
       </Button>
       <Button
         class='flex gap-1 bg-white text-black border border-black py-1 px-4 rounded-lg hover:bg-slate-800 hover:text-white'>
-        Sign up
+        <NuxtLink to='signup'>
+          Sign up
+        </NuxtLink>
         <UserPlus :size="18" :stroke-width="1.5" />
       </Button>
     </div>
