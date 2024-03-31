@@ -59,6 +59,9 @@
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
+        <div>
+          <ThemeSwitcher />
+        </div>
         <div class='font-light flex gap-4'>
           <Button class='flex gap-1 bg-violet-500 text-white py-1 px-4 rounded-lg hover:bg-violet-600'>
             <NuxtLink to='signin'>

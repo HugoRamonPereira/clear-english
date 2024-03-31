@@ -3,12 +3,16 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     'shadcn-nuxt',
     '@nuxtjs/google-fonts',
-    "@nuxt/image"
+    "@nuxt/image",
+    '@nuxtjs/color-mode'
   ],
   googleFonts: {
     families: {
       Assistant: [200, 400, 600]
     }
+  },
+  colorMode: {
+    
   },
   shadcn: {
     /**
