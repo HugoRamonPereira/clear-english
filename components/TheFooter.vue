@@ -3,7 +3,9 @@
     <div class=' w-[1200px] h-20 flex items-center justify-between mx-auto'>
       <div>Clear English</div>
       <div class='flex'>
-        <p>Developed by - &nbsp;</p>
+        <p>
+          Developed by -&nbsp;
+        </p>
         <NuxtLink to='https://hugoramonpereira.dev/' target='_blank'>Hugo Ramon Pereira</NuxtLink>
       </div>
       <div>
