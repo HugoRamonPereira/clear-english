@@ -1,9 +1,11 @@
 <template>
   <Dialog>
     <DialogTrigger>
-      <Button variant='outline' class='w-[220px] flex justify-between' @click='handleOpenChange'>
-        Search website...
-        <div class='flex items-center gap-0.5 text-xs border border-1 p-1 px-1.5 -mr-2 rounded-md bg-gray-50'>
+      <Button variant='outline' class='w-[120px] sm:w-[220px] flex justify-between' @click='handleOpenChange'>
+        <p class='hidden sm:block'>Search website...</p>
+        <p class='sm:hidden'>Search...</p>
+        <Search class='sm:hidden' :size="18" :stroke-width="1.5" />
+        <div class='hidden sm:flex items-center gap-0.5 text-xs border border-1 p-1 px-1.5 -mr-2 rounded-md bg-gray-50'>
           <Command :size="11" :stroke-width="2" />
           K
         </div>
@@ -60,6 +62,8 @@ import {
   CommandList,
   CommandSeparator,
 } from '@/components/ui/command'
+import { Dialog, DialogTrigger } from '@/components/ui/dialog'
+import { Search } from 'lucide-vue-next';
 
 const open = ref(false)
 

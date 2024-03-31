@@ -1,12 +1,12 @@
 <template>
-  <header class='w-full border-b border-b-stone-300'>
-    <div class='max-w-[1200px] flex items-center justify-center mx-auto'>
+  <header class='max-w-full border-b border-b-stone-300 px-4 sm:px-0'>
+    <div class='sm:max-w-[1200px] flex items-center justify-center mx-auto'>
       <div class='w-full flex items-center justify-between h-16'>
         <div class='flex items-center gap-14'>
           <NuxtLink to='/'>
             <p class='font-normal'>Clear English</p>
           </NuxtLink>
-          <NavigationMenu>
+          <NavigationMenu class='hidden sm:flex'>
             <NavigationMenuList>
               <NavigationMenuItem>
                 <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>
@@ -27,15 +27,15 @@
                         </a>
                       </NavigationMenuLink>
                     </li>
-                    <ListItem href="/docs" title="Introduction">
+                    <li href="/docs" title="Introduction">
                       Re-usable components built using Radix UI and Tailwind CSS.
-                    </ListItem>
-                    <ListItem href="/docs/installation" title="Installation">
+                    </li>
+                    <li href="/docs/installation" title="Installation">
                       How to install dependencies and structure your app.
-                    </ListItem>
-                    <ListItem href="/docs/primitives/typography" title="Typography">
+                    </li>
+                    <li href="/docs/primitives/typography" title="Typography">
                       Styles for headings, paragraphs, lists...etc
-                    </ListItem>
+                    </li>
                   </ul>
                 </NavigationMenuContent>
               </NavigationMenuItem>
@@ -43,10 +43,10 @@
                 <NavigationMenuTrigger>Components</NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul class="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-                    <ListItem v-for="component in components" :key="component.title" :title="component.title"
+                    <li v-for="component in components" :key="component.title" :title="component.title"
                       :href="component.href">
                       {{ component.description }}
-                    </ListItem>
+                    </li>
                   </ul>
                 </NavigationMenuContent>
               </NavigationMenuItem>
@@ -61,14 +61,15 @@
             </NavigationMenuList>
           </NavigationMenu>
         </div>
-        <div class='flex items-center gap-4'>
+
+        <div class='flex items-center justify-center gap-4'>
           <div>
             <TheSearch />
           </div>
-          <div>
+          <div class='hidden sm:flex'>
             <ThemeSwitcher />
           </div>
-          <div class='font-light flex gap-4'>
+          <div class='hidden sm:flex font-light gap-4'>
             <Button class='flex gap-1 bg-violet-500 text-white py-1 px-4 rounded-lg hover:bg-violet-600'>
               <NuxtLink to='signin'>
                 Sign in
@@ -81,6 +82,11 @@
                 Sign up
               </NuxtLink>
               <UserPlus :size="18" :stroke-width="1.5" />
+            </Button>
+          </div>
+          <div>
+            <Button variant='outline' class='sm:hidden px-2'>
+              <Menu :size="20" :stroke-width="1.5" />
             </Button>
           </div>
         </div>
@@ -101,7 +107,7 @@ import {
   navigationMenuTriggerStyle,
 } from '@/components/ui/navigation-menu'
 import { Button } from '@/components/ui/button'
-import { LogIn, UserPlus, Crown } from 'lucide-vue-next';
+import { LogIn, UserPlus, Crown, Menu } from 'lucide-vue-next';
 
 const components: { title: string, href: string, description: string }[] = [
   {
