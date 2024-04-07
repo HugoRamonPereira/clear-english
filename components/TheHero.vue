@@ -14,13 +14,13 @@
       <h1 class="text-4xl sm:text-4xl lg:text-6xl font-bold">with us</h1>
       <div class="w-4/5 sm:w-3/5 lg:w-full my-4">
         <h3
-          class="flex items-center justify-center text-lg sm:text-2xl font-normal my-4"
+          class="flex items-center justify-center text-lg sm:text-2xl font-normal my-4 dark:text-gray-300"
         >
           Explore the many opportunites that await you
         </h3>
       </div>
       <Button
-        class="text-base sm:text-xl font-normal flex gap-1 h-10 sm:h-12 bg-violet-500 text-white px-5 rounded-lg hover:bg-violet-600"
+        class="text-base sm:text-xl font-normal flex gap-1 h-10 sm:h-12 bg-violet-violetMain text-white px-5 rounded-lg hover:bg-violet-violetMainHover"
       >
         <NuxtLink to="/signup" class="flex items-center gap-2">
           <p class="uppercase">Join us right now</p>

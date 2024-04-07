@@ -1,5 +1,7 @@
 <template>
-  <header class="w-full border-b border-b-stone-300 px-4 lg:px-6 xl:px-0">
+  <header
+    class="w-full border-b border-b-stone-300/80 dark:border-b-gray-700/50 px-4 lg:px-6 xl:px-0"
+  >
     <div class="sm:max-w-[1200px] flex items-center justify-center mx-auto">
       <div class="w-full flex items-center justify-between h-16">
         <div class="flex items-center gap-4 xl:gap-16">
@@ -9,12 +11,12 @@
           <NavigationMenu class="hidden lg:flex">
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavigationMenuTrigger class="text-base"
+                <NavigationMenuTrigger class="text-base dark:text-gray-300"
                   >Getting started</NavigationMenuTrigger
                 >
                 <NavigationMenuContent>
                   <ul
-                    class="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[minmax(0,.75fr)_minmax(0,1fr)] text-base"
+                    class="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[minmax(0,.75fr)_minmax(0,1fr)] text-base dark:text-gray-300"
                   >
                     <li class="row-span-3">
                       <NavigationMenuLink as-child>
@@ -52,12 +54,12 @@
                 </NavigationMenuContent>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuTrigger class="text-base">
+                <NavigationMenuTrigger class="text-base dark:text-gray-300">
                   Components
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul
-                    class="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] text-base"
+                    class="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] text-base dark:text-gray-300"
                   >
                     <li
                       v-for="component in components"
@@ -76,7 +78,7 @@
                   class="flex gap-1"
                   :class="navigationMenuTriggerStyle()"
                 >
-                  <p class="text-base">Go Premium</p>
+                  <p class="text-base dark:text-gray-300">Go Premium</p>
                   <Crown :size="18" :stroke-width="1.5" />
                 </NuxtLink>
               </NavigationMenuItem>
@@ -93,20 +95,23 @@
           </div>
           <div class="hidden lg:flex font-light gap-4">
             <Button
-              class="flex gap-1 bg-violet-500 text-white py-1 px-4 rounded-lg hover:bg-violet-600"
+              class="flex gap-1 bg-violet-violetMain text-white py-1 px-4 rounded-lg hover:bg-violet-violetMainHover"
             >
               <NuxtLink to="signin"> Sign in </NuxtLink>
               <LogIn :size="18" :stroke-width="1.5" />
             </Button>
             <Button
-              class="flex gap-1 bg-white text-black border border-black py-1 px-4 rounded-lg hover:bg-slate-800 hover:text-white"
+              class="flex gap-1 bg-white dark:bg-transparent dark:text-gray-300 dark:border-gray-300/50 dark:hover:bg-gray-900 text-black border border-black py-1 px-4 rounded-lg hover:bg-accent"
             >
               <NuxtLink to="signup"> Sign up </NuxtLink>
               <UserPlus :size="18" :stroke-width="1.5" />
             </Button>
           </div>
           <div>
-            <Button variant="outline" class="lg:hidden px-2">
+            <Button
+              variant="outline"
+              class="lg:hidden px-2 border-gray-700 dark:text-gray-300 dark:border-gray-300/50"
+            >
               <Menu :size="20" :stroke-width="1.5" />
             </Button>
           </div>

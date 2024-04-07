@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   ],
   googleFonts: {
     families: {
-      Assistant: [200, 400, 600],
+      Assistant: [400, 600, 700],
     },
   },
   colorMode: {

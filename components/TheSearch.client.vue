@@ -1,17 +1,16 @@
 <template>
   <Dialog>
-    <DialogTitle class="sr-only">Search Dialog</DialogTitle>
     <DialogTrigger>
       <Button
         variant="outline"
-        class="w-[120px] sm:w-[180px] flex justify-between"
+        class="w-[120px] sm:w-[180px] flex justify-between border-black dark:bg-transparent dark:text-gray-300 dark:border-gray-300/50 dark:hover:bg-gray-900"
         @click="handleOpenChange"
       >
         <p class="hidden sm:block">Search website...</p>
         <p class="sm:hidden">Search...</p>
         <Search class="sm:hidden" :size="18" :stroke-width="1.5" />
         <div
-          class="hidden sm:flex items-center gap-0.5 text-xs border border-1 p-1 px-1.5 -mr-2 rounded-md bg-gray-50 dark:bg-black/40 dark:text-white"
+          class="hidden sm:flex items-center gap-0.5 text-xs border border-1 border-gray-700 p-1 px-1.5 -mr-2 rounded-md bg-gray-50 dark:bg-gray-950 dark:text-gray-300 dark:border-gray-300/50"
         >
           <Command :size="11" :stroke-width="2" />
           K

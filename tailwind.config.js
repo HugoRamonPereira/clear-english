@@ -49,6 +49,10 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        violet: {
+          violetMain: "#6613ed",
+          violetMainHover: "#560fc9",
+        },
       },
       borderRadius: {
         xl: "calc(var(--radius) + 4px)",
