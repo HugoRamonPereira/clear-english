@@ -7,8 +7,8 @@
 
 <script lang="ts" setup>
 useHead({
-  title: 'Sign Up'
-})
+  title: "Sign Up",
+});
 </script>
 
 <style scoped></style>

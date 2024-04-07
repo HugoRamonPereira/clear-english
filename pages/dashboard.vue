@@ -1,9 +1,9 @@
-<script lang="ts" setup></script>
-
 <template>
-  <div>
-    Page: dashboard
-  </div>
+  <div>Page: dashboard</div>
 </template>
 
-<style scoped></style>
+<script lang="ts" setup>
+useHead({
+  title: "Dashboard",
+});
+</script>
