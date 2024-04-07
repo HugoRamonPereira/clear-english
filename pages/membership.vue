@@ -1,5 +1,3 @@
-<script lang="ts" setup></script>
-
 <template>
   <div>
     <p>Page: membership</p>
@@ -7,4 +5,8 @@
   </div>
 </template>
 
-<style scoped></style>
+<script lang="ts" setup>
+useHead({
+  title: "Membership",
+});
+</script>
