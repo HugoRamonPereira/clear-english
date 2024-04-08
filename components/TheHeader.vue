@@ -80,7 +80,7 @@
               >
                 <NuxtLink
                   to="/membership"
-                  class="flex gap-1"
+                  class="flex gap-2"
                   :class="navigationMenuTriggerStyle()"
                 >
                   <p class="text-base">Go Premium</p>
