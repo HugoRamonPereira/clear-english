@@ -3,14 +3,14 @@
     <DialogTrigger>
       <Button
         variant="outline"
-        class="w-[120px] sm:w-[180px] flex justify-between border-black dark:bg-transparent dark:text-gray-300 dark:border-gray-300/50 dark:hover:bg-gray-900"
+        class="w-[120px] sm:w-[180px] flex justify-between border-gray-400 hover:border-gray-500 text-gray-500 hover:text-gray-600 dark:bg-transparent dark:text-gray-300 dark:border-gray-300/50 dark:hover:bg-gray-900"
         @click="handleOpenChange"
       >
         <p class="hidden sm:block">Search website...</p>
         <p class="sm:hidden">Search...</p>
         <Search class="sm:hidden" :size="18" :stroke-width="1.5" />
         <div
-          class="hidden sm:flex items-center gap-0.5 text-xs border border-1 border-gray-700 p-1 px-1.5 -mr-2 rounded-md bg-gray-50 dark:bg-gray-950 dark:text-gray-300 dark:border-gray-300/50"
+          class="hidden sm:flex items-center gap-0.5 text-xs p-1 px-2 -mr-2 rounded-md bg-gray-200/40 border text-gray-600 dark:bg-gray-950 dark:text-gray-300 border-gray-400"
         >
           <Command :size="11" :stroke-width="2" />
           K

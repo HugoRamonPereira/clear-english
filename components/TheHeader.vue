@@ -11,9 +11,10 @@
           <NavigationMenu class="hidden lg:flex">
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavigationMenuTrigger class="text-base dark:text-gray-300"
-                  >Getting started</NavigationMenuTrigger
-                >
+                <NavigationMenuTrigger
+                  class="text-base text-gray-500 dark:text-gray-300"
+                  >Getting started
+                </NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul
                     class="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[minmax(0,.75fr)_minmax(0,1fr)] text-base dark:text-gray-300"
@@ -54,7 +55,9 @@
                 </NavigationMenuContent>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <NavigationMenuTrigger class="text-base dark:text-gray-300">
+                <NavigationMenuTrigger
+                  class="text-base text-gray-500 dark:text-gray-300"
+                >
                   Components
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
@@ -72,13 +75,15 @@
                   </ul>
                 </NavigationMenuContent>
               </NavigationMenuItem>
-              <NavigationMenuItem>
+              <NavigationMenuItem
+                class="text-gray-500 hover:text-gray-700 dark:text-gray-300"
+              >
                 <NuxtLink
                   to="/membership"
                   class="flex gap-1"
                   :class="navigationMenuTriggerStyle()"
                 >
-                  <p class="text-base dark:text-gray-300">Go Premium</p>
+                  <p class="text-base">Go Premium</p>
                   <Crown :size="18" :stroke-width="1.5" />
                 </NuxtLink>
               </NavigationMenuItem>
@@ -101,7 +106,7 @@
               <LogIn :size="18" :stroke-width="1.5" />
             </Button>
             <Button
-              class="flex gap-1 bg-white dark:bg-transparent dark:text-gray-300 dark:border-gray-300/50 dark:hover:bg-gray-900 text-black border border-black py-1 px-4 rounded-lg hover:bg-accent"
+              class="flex gap-1 bg-white dark:bg-transparent dark:text-gray-300 dark:border-gray-300/50 dark:hover:bg-gray-900 border border-gray-400 hover:border-gray-500 text-gray-500 hover:text-gray-600 py-1 px-4 rounded-lg hover:bg-accent"
             >
               <NuxtLink to="signup"> Sign up </NuxtLink>
               <UserPlus :size="18" :stroke-width="1.5" />
@@ -110,7 +115,7 @@
           <div>
             <Button
               variant="outline"
-              class="lg:hidden px-2 border-gray-700 dark:text-gray-300 dark:border-gray-300/50"
+              class="lg:hidden px-2 border-gray-400 hover:border-gray-500 text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:border-gray-300/50"
             >
               <Menu :size="20" :stroke-width="1.5" />
             </Button>

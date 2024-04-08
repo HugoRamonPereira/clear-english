@@ -1,7 +1,7 @@
 <template>
   <Button
     variant="outline"
-    class="w-[50px] border-black dark:bg-transparent dark:text-gray-300 dark:border-gray-300/50 dark:hover:bg-gray-900"
+    class="w-[50px] border-gray-400 hover:border-gray-500 text-gray-500 hover:text-gray-600 dark:bg-transparent dark:text-gray-300 dark:border-gray-300/50 dark:hover:bg-gray-900"
     @click="setColorTheme($colorMode.preference === 'dark' ? 'light' : 'dark')"
   >
     <Sun

@@ -5,14 +5,14 @@
       <div class="flex">
         <ul class="flex gap-2 sm:gap-4">
           <li
-            class="dark:text-gray-300 dark:hover:text-white dark:transition-colors dark:duration-200"
+            class="text-gray-500 hover:text-black transition-colors duration-200 dark:text-gray-300 dark:hover:text-white dark:transition-colors dark:duration-200"
           >
             <NuxtLink to="https://hugoramonpereira.dev/" target="_blank">
               <Globe :size="20" :stroke-width="1.5" />
             </NuxtLink>
           </li>
           <li
-            class="dark:text-gray-300 dark:hover:text-white dark:transition-colors dark:duration-200"
+            class="text-gray-500 hover:text-black transition-colors duration-200 dark:text-gray-300 dark:hover:text-white dark:transition-colors dark:duration-200"
           >
             <NuxtLink
               to="https://www.linkedin.com/in/hugo-ramon-pereira/"
@@ -22,14 +22,14 @@
             </NuxtLink>
           </li>
           <li
-            class="dark:text-gray-300 dark:hover:text-white dark:transition-colors dark:duration-200"
+            class="text-gray-500 hover:text-black transition-colors duration-200 dark:text-gray-300 dark:hover:text-white dark:transition-colors dark:duration-200"
           >
             <NuxtLink to="https://github.com/HugoRamonPereira" target="_blank">
               <Github :size="20" :stroke-width="1.5" />
             </NuxtLink>
           </li>
           <li
-            class="dark:text-gray-300 dark:hover:text-white dark:transition-colors dark:duration-200"
+            class="text-gray-500 hover:text-black transition-colors duration-200 dark:text-gray-300 dark:hover:text-white dark:transition-colors dark:duration-200"
           >
             <NuxtLink
               to="https://www.instagram.com/hramon_pereira"
@@ -41,7 +41,7 @@
         </ul>
       </div>
       <div>
-        <span class="flex dark:text-gray-300"
+        <span class="flex text-gray-500 dark:text-gray-300"
           >&copy;&nbsp;{{ year }}
           <span class="hidden sm:block">&nbsp;- All Rights Reserved</span>
         </span>
