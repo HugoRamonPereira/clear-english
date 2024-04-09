@@ -1,6 +1,6 @@
 <template>
   <Dialog>
-    <DialogTrigger>
+    <DialogTrigger tabindex="-1">
       <Button
         variant="outline"
         class="w-[120px] sm:w-[180px] flex justify-between border-gray-400 hover:border-gray-500 text-gray-500 hover:text-gray-600 dark:bg-transparent dark:text-gray-300 dark:border-gray-300/50 dark:hover:bg-gray-900"

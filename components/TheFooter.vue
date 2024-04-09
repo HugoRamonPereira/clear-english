@@ -9,7 +9,11 @@
           <li
             class="text-gray-500 hover:text-black transition-colors duration-200 dark:text-gray-300 dark:hover:text-white dark:transition-colors dark:duration-200"
           >
-            <NuxtLink to="https://hugoramonpereira.dev/" target="_blank">
+            <NuxtLink
+              to="https://hugoramonpereira.dev/"
+              target="_blank"
+              class="focus-visible:outline-2 focus-visible:outline-violet-violetMain"
+            >
               <Globe :size="20" :stroke-width="1.5" />
             </NuxtLink>
           </li>
@@ -19,6 +23,7 @@
             <NuxtLink
               to="https://www.linkedin.com/in/hugo-ramon-pereira/"
               target="_blank"
+              class="focus-visible:outline-2 focus-visible:outline-violet-violetMain"
             >
               <Linkedin :size="20" :stroke-width="1.5" />
             </NuxtLink>
@@ -26,7 +31,11 @@
           <li
             class="text-gray-500 hover:text-black transition-colors duration-200 dark:text-gray-300 dark:hover:text-white dark:transition-colors dark:duration-200"
           >
-            <NuxtLink to="https://github.com/HugoRamonPereira" target="_blank">
+            <NuxtLink
+              to="https://github.com/HugoRamonPereira"
+              target="_blank"
+              class="focus-visible:outline-2 focus-visible:outline-violet-violetMain"
+            >
               <Github :size="20" :stroke-width="1.5" />
             </NuxtLink>
           </li>
@@ -36,6 +45,7 @@
             <NuxtLink
               to="https://www.instagram.com/hramon_pereira"
               target="_blank"
+              class="focus-visible:outline-2 focus-visible:outline-violet-violetMain"
             >
               <Instagram :size="20" :stroke-width="1.5" />
             </NuxtLink>

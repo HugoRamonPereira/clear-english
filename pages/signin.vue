@@ -5,7 +5,7 @@
     >
       <NuxtLink
         to="/"
-        class="flex items-center gap-1 justify-center border border-gray-300 dark:hover:bg-gray-900/50 dark:border-gray-500/50 rounded-md px-4 h-10 text-gray-400 hover:border-gray-400 hover:bg-gray-100/90 hover:trasnsition-colors hover:duration-200 absolute top-6 left-6"
+        class="flex items-center gap-1 justify-center border border-gray-300 dark:hover:bg-gray-900/50 dark:border-gray-500/50 rounded-md px-4 h-10 text-gray-400 hover:border-gray-400 hover:bg-gray-100/90 hover:trasnsition-colors hover:duration-200 absolute top-6 left-6 focus-visible:outline-2 focus-visible:outline-violet-violetMain"
       >
         <ArrowLeft :size="18" :stroke-width="1.5" />
       </NuxtLink>
@@ -30,7 +30,7 @@
                     <div class="relative w-full items-center">
                       <Input
                         placeholder="Enter your email"
-                        class="pl-10 text-base dark:text-gray-300 border-gray-300 dark:border-gray-500 focus-visible:ring-0 focus-visible:transition-colors focus-visible:duration-500 focus-visible:border-[1.5px] focus-visible:border-violet-violetMain dark:focus-visible:border-violet-violetMain"
+                        class="pl-10 text-base dark:text-gray-300 border-[1.5px] border-gray-300 dark:border-gray-500 focus-visible:ring-transparent focus-visible:transition-colors focus-visible:duration-500 focus-visible:border-[1.5px] focus-visible:border-violet-violetMain dark:focus-visible:border-violet-violetMain"
                       />
                       <span
                         class="absolute start-1 inset-y-0 flex items-center justify-center px-2"
@@ -55,7 +55,7 @@
                         v-model="password"
                         placeholder="Enter your password"
                         :type="inputType"
-                        class="px-10 text-base dark:text-gray-300 border-gray-300 dark:border-gray-500 focus-visible:ring-0 focus-visible:transition-colors focus-visible:duration-500 focus-visible:border-[1.5px] focus-visible:border-violet-violetMain dark:focus-visible:border-violet-violetMain"
+                        class="px-10 text-base dark:text-gray-300 border-[1.5px] border-gray-300 dark:border-gray-500 focus-visible:ring-transparent focus-visible:transition-colors focus-visible:duration-500 focus-visible:border-[1.5px] focus-visible:border-violet-violetMain dark:focus-visible:border-violet-violetMain"
                       />
                       <span
                         class="absolute start-1 inset-y-0 flex items-center justify-center px-2"
@@ -66,7 +66,7 @@
                         />
                       </span>
                       <button
-                        class="absolute end-1 inset-y-0 flex items-center justify-center px-2"
+                        class="absolute end-1 inset-y-0 flex items-center justify-center px-2 focus-visible:outline-2 focus-visible:outline-violet-violetMain"
                         @click.prevent="toggleVisibility"
                       >
                         <Eye
@@ -92,7 +92,7 @@
                 <p class="text-gray-500">Don't have an account yet?</p>
                 <NuxtLink
                   to="/signup"
-                  class="text-gray-500 underline decoration-gray-500 hover:text-gray-700 hover:decoration-gray-700 underline-offset-4 dark:hover:text-gray-400 dark:hover:decoration-gray-400"
+                  class="text-gray-500 underline decoration-gray-500 hover:text-gray-700 hover:decoration-gray-700 underline-offset-4 dark:hover:text-gray-400 dark:hover:decoration-gray-400 focus-visible:outline-2 focus-visible:outline-violet-violetMain"
                 >
                   Create account</NuxtLink
                 >
@@ -100,7 +100,7 @@
               <div class="flex items-center justify-center mb-2">
                 <NuxtLink
                   to="/forgot-password"
-                  class="text-gray-500 underline decoration-gray-500 hover:text-gray-700 hover:decoration-gray-700 underline-offset-4 dark:hover:text-gray-400 dark:hover:decoration-gray-400"
+                  class="text-gray-500 underline decoration-gray-500 hover:text-gray-700 hover:decoration-gray-700 underline-offset-4 dark:hover:text-gray-400 dark:hover:decoration-gray-400 focus-visible:outline-2 focus-visible:outline-violet-violetMain"
                 >
                   Forgot your password?</NuxtLink
                 >
@@ -115,7 +115,7 @@
         <div class="mt-10">
           <NuxtLink
             to="/"
-            class="flex items-center gap-2 justify-center border border-gray-300 rounded-md px-4 h-10 text-gray-400 hover:text-gray-500 hover:border-gray-400 hover:bg-gray-100/50 hover:trasnsition-colors hover:duration-200 dark:hover:bg-gray-900/50 dark:border-gray-500/50 dark:text-gray-500"
+            class="flex items-center gap-2 justify-center border border-gray-300 rounded-md px-4 h-10 text-gray-400 hover:text-gray-500 hover:border-gray-400 hover:bg-gray-100/50 hover:trasnsition-colors hover:duration-200 dark:hover:bg-gray-900/50 dark:border-gray-500/50 dark:text-gray-500 focus-visible:outline-2 focus-visible:outline-violet-violetMain"
           >
             Back to Home
             <Home :size="18" :stroke-width="1.5" />

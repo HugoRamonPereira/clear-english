@@ -5,15 +5,19 @@
     <div class="sm:max-w-[1200px] flex items-center justify-center mx-auto">
       <div class="w-full flex items-center justify-between h-16">
         <div class="flex items-center gap-4 xl:gap-16">
-          <NuxtLink to="/">
+          <NuxtLink
+            to="/"
+            class="focus-visible:outline-2 focus-visible:outline-violet-violetMain"
+          >
             <p class="font-normal">Clear English</p>
           </NuxtLink>
           <NavigationMenu class="hidden lg:flex">
             <NavigationMenuList>
               <NavigationMenuItem>
                 <NavigationMenuTrigger
-                  class="text-base text-gray-500 dark:text-gray-300"
-                  >Getting started
+                  class="text-base text-gray-500 dark:text-gray-300 focus-visible:outline-2 focus-visible:outline-violet-violetMain"
+                >
+                  Getting started
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul
@@ -56,7 +60,7 @@
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationMenuTrigger
-                  class="text-base text-gray-500 dark:text-gray-300"
+                  class="text-base text-gray-500 dark:text-gray-300 focus-visible:outline-2 focus-visible:outline-violet-violetMain"
                 >
                   Components
                 </NavigationMenuTrigger>
@@ -80,7 +84,7 @@
               >
                 <NuxtLink
                   to="/membership"
-                  class="flex gap-2"
+                  class="flex gap-2 focus-visible:outline-2 focus-visible:outline-violet-violetMain"
                   :class="navigationMenuTriggerStyle()"
                 >
                   <p class="text-base">Go Premium</p>
@@ -102,13 +106,13 @@
             <Button
               class="flex gap-1 bg-violet-violetMain text-white py-1 px-4 rounded-lg hover:bg-violet-violetMainHover"
             >
-              <NuxtLink to="signin"> Sign in </NuxtLink>
+              <NuxtLink to="signin" tabindex="-1"> Sign in </NuxtLink>
               <LogIn :size="18" :stroke-width="1.5" />
             </Button>
             <Button
               class="flex gap-1 bg-white dark:bg-transparent dark:text-gray-300 dark:border-gray-300/50 dark:hover:bg-gray-900 border border-gray-400 hover:border-gray-500 text-gray-500 hover:text-gray-600 py-1 px-4 rounded-lg hover:bg-accent"
             >
-              <NuxtLink to="signup"> Sign up </NuxtLink>
+              <NuxtLink to="signup" tabindex="-1"> Sign up </NuxtLink>
               <UserPlus :size="18" :stroke-width="1.5" />
             </Button>
           </div>

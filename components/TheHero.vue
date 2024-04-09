@@ -22,7 +22,7 @@
       <Button
         class="text-base sm:text-xl font-normal flex gap-1 h-10 sm:h-12 bg-violet-violetMain text-white px-5 rounded-lg hover:bg-violet-violetMainHover"
       >
-        <NuxtLink to="/signup" class="flex items-center gap-2">
+        <NuxtLink to="/signup" class="flex items-center gap-2" tabindex="-1">
           <p class="uppercase">Join us right now</p>
           <ArrowRight class="sm:hidden" :size="18" :stroke-width="1.8" />
           <ArrowRight class="hidden sm:block" :size="22" :stroke-width="1.8" />
