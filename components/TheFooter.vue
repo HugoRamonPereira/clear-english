@@ -1,5 +1,7 @@
 <template>
-  <footer class="max-w-full border-t border-t-stone-300 px-4 mt-6">
+  <footer
+    class="max-w-full border-t border-t-stone-300 dark:border-t-gray-700 px-4 mt-6 select-none"
+  >
     <div class="max-w-[1200px] h-20 flex items-center justify-between mx-auto">
       <div>Clear English</div>
       <div class="flex">

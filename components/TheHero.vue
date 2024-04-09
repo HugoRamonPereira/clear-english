@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex flex-col-reverse sm:flex-row h-full min-h-[400px] sm:min-h-[600px] w-full max-w-[1200px] mx-auto"
+    class="flex flex-col-reverse sm:flex-row h-full min-h-[400px] sm:min-h-[600px] w-full max-w-[1200px] mx-auto select-none"
   >
     <div
       class="w-5/6 sm:w-1/2 lg:w-3/5 flex flex-col gap-1.5 sm:gap-4 md:gap-2 items-center justify-center text-center mx-auto"

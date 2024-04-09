@@ -1,6 +1,6 @@
 <template>
   <header
-    class="w-full border-b border-b-stone-300/80 dark:border-b-gray-700/50 px-4 lg:px-6 xl:px-0"
+    class="w-full border-b border-b-stone-300/80 dark:border-b-gray-700 px-4 lg:px-6 xl:px-0 select-none"
   >
     <div class="sm:max-w-[1200px] flex items-center justify-center mx-auto">
       <div class="w-full flex items-center justify-between h-16">

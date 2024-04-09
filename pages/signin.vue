@@ -1,7 +1,7 @@
 <template>
   <NuxtLayout name="auth">
     <div
-      class="flex flex-col items-center justify-center mx-auto w-[400px] max-h-[500px]"
+      class="flex flex-col items-center justify-center mx-auto w-[400px] max-h-[500px] select-none"
     >
       <NuxtLink
         to="/"
@@ -13,7 +13,7 @@
     </div>
     <template #form>
       <div
-        class="flex flex-col items-center justify-center gap-4 w-full xl:w-[90%]"
+        class="flex flex-col items-center justify-center gap-4 w-full xl:w-[90%] select-none"
       >
         <div
           class="flex flex-col items-center justify-center gap-4 w-[90%] border border-gray-300 dark:border-gray-500/50 rounded-lg py-14"
