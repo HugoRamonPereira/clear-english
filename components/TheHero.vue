@@ -12,7 +12,7 @@
         studying English
       </h1>
       <h1 class="text-4xl sm:text-4xl lg:text-6xl font-bold">with us</h1>
-      <div class="w-4/5 sm:w-3/5 lg:w-full my-4">
+      <div class="w-4/5 sm:w-3/5 lg:w-full my-1 sm:my-4">
         <h3
           class="flex items-center justify-center text-lg sm:text-2xl font-normal my-4 dark:text-gray-300"
         >
