@@ -3,12 +3,6 @@
     <div
       class="flex flex-col items-center justify-center mx-auto w-[500px] max-h-[600px] select-none"
     >
-      <NuxtLink
-        to="/"
-        class="flex items-center gap-1 justify-center border border-gray-400 rounded-md px-4 h-10 text-gray-500 hover:border-gray-500 hover:bg-gray-100/90 hover:trasnsition-colors hover:duration-200 absolute top-6 left-6 dark:hover:bg-gray-900/50 dark:border-gray-500/50 dark:text-gray-500 focus-visible:outline-2 focus-visible:outline-violet-violetMain"
-      >
-        <ArrowLeft :size="18" :stroke-width="1.5" />
-      </NuxtLink>
       <NuxtImg src="/nuxt-clear-english-signup-illustration.png" />
     </div>
     <template #form>
@@ -164,15 +158,6 @@
             </form>
           </div>
         </div>
-        <div class="mt-10">
-          <NuxtLink
-            to="/"
-            class="flex items-center gap-1 justify-center border border-gray-400 rounded-md px-4 h-10 text-gray-500 hover:border-gray-500 hover:bg-gray-100/90 hover:trasnsition-colors hover:duration-200 dark:hover:bg-gray-900/50 dark:border-gray-500/50 dark:text-gray-500 focus-visible:outline-2 focus-visible:outline-violet-violetMain"
-          >
-            Back to Home
-            <Home :size="18" :stroke-width="1.5" />
-          </NuxtLink>
-        </div>
       </div>
     </template>
   </NuxtLayout>
@@ -190,7 +175,7 @@ import {
 } from "@/components/ui/form";
 import { Checkbox } from "@/components/ui/checkbox";
 
-import { Mail, Lock, Eye, EyeOff, Home, ArrowLeft } from "lucide-vue-next";
+import { Mail, Lock, Eye, EyeOff } from "lucide-vue-next";
 
 useHead({
   title: "Sign Up",
