@@ -1,6 +1,8 @@
 <template>
   <TheHeader />
-  <slot />
+  <div class="flex flex-col-reverse w-full max-w-[1200px] m-auto select-none">
+    <slot />
+  </div>
   <TheFooter />
 </template>
 
