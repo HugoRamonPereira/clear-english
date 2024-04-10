@@ -61,4 +61,8 @@ import { Mail } from "lucide-vue-next";
 definePageMeta({
   layout: false,
 });
+
+useHead({
+  title: "Forgot Password",
+});
 </script>
