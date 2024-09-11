@@ -10,12 +10,7 @@
       :stroke-width="1.5"
       class="absolute h-[1.2rem] w-[1.2rem]"
     />
-    <Moon
-      v-if="$colorMode.preference === 'light'"
-      :size="20"
-      :stroke-width="1.5"
-      class="h-[1.2rem] w-[1.2rem]"
-    />
+    <Moon v-else :size="20" :stroke-width="1.5" class="h-[1.2rem] w-[1.2rem]" />
     <span class="sr-only">Toggle theme</span>
   </Button>
 </template>
