@@ -1,10 +1,10 @@
 <template>
   <div class="w-5/6 mx-auto pt-4">
-    <p class="text-2xl font-bold">Terms And Conditions</p>
-    <div class="flex flex-col gap-2">
+    <p class="text-2xl sm:text-3xl font-bold py-6">Terms And Conditions</p>
+    <div class="flex flex-col gap-3 text-justify">
       <p class="py-2">
-        Please read these terms and conditions carefully before enrolling in our
-        English course.
+        ⚠️ Please read these terms and conditions carefully before enrolling in
+        our English course. ⚠️
       </p>
       <p>
         <strong>Enrollment:</strong> By enrolling in our English course, you
