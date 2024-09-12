@@ -1,14 +1,16 @@
 <template>
   <div class="w-5/6 mx-auto pt-4">
-    <p class="text-2xl font-bold text-gray-500 dark:text-gray-300">
+    <p
+      class="text-2xl sm:text-3xl font-bold text-gray-500 dark:text-gray-300 py-4"
+    >
       Terms And Conditions
     </p>
-    <div class="flex flex-col gap-2.5 text-gray-500 dark:text-gray-400">
+    <div class="flex flex-col gap-4 text-gray-500 dark:text-gray-400">
       <p class="text-lg py-3">
         Please read these terms and conditions carefully before enrolling in our
         English course.
       </p>
-      <ul class="list-disc flex flex-col gap-3 ml-4">
+      <ul class="list-disc flex flex-col gap-4 ml-4 text-justify">
         <li>
           <strong class="dark:text-gray-300">Enrollment:</strong> By enrolling
           in our English course, you agree to abide by these terms and
@@ -91,11 +93,11 @@
         understood, and agree to these terms and conditions.
       </p>
       <p>
-        If you have any questions or concerns, please contact us before
-        proceeding with enrollment.
+        <strong>IMPORTANT</strong> - If you have any questions or concerns,
+        please contact us before proceeding with enrollment.
       </p>
     </div>
-    <div class="flex justify-center mt-6">
+    <div class="flex justify-center mt-10 mb-4">
       <TheLink
         to="/"
         class="w-fit flex items-center gap-2 justify-center border border-gray-300 rounded-md px-4 h-10 text-gray-400 hover:text-gray-500 hover:border-gray-400 hover:bg-gray-100/50 hover:trasnsition-colors hover:duration-200 dark:hover:bg-gray-900/50 dark:border-gray-500/50 dark:text-gray-500 focus-visible:outline-2 focus-visible:outline-violet-violetMain"
