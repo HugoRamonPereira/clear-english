@@ -6,17 +6,21 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxtjs/color-mode",
   ],
+
   googleFonts: {
     families: {
       Assistant: [400, 600, 700],
     },
   },
+
   colorMode: {
     classSuffix: "",
   },
+
   tailwindcss: {
     cssPath: "~/assets/css/main.css",
   },
+
   shadcn: {
     prefix: "",
     /**
@@ -25,12 +29,16 @@ export default defineNuxtConfig({
      */
     componentDir: "./components/ui",
   },
+
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
+  compatibilityDate: "2024-09-20",
 });
